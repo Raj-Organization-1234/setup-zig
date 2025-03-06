@@ -18,6 +18,6 @@ jobs:
   audit-fix:
     uses: step-security/reusable-workflows/.github/workflows/auto_cherry_pick.yaml@fix_UpStream-Changes-Cherry-Pick
     with:
-      original-owner: "EnricoMi"
-      repo-name: "publish-unit-test-result-action"
+      original-owner: "mlugg"
+      repo-name: "setup-zig"
       base_branch: ${{ inputs.base_branch }}
