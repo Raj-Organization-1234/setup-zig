@@ -16,6 +16,6 @@ jobs:
       actions: read
       id-token: write
       contents: write
-    uses: step-security/reusable-workflows/.github/workflows/actions_release.yaml@feature/Add-PrevTag-In-Action-Release
+    uses: step-security/reusable-workflows/.github/workflows/actions_release.yaml@71616183c90301ca8b1a10990e71f0b93c52dc25
     with:
       tag: "${{ github.event.inputs.tag }}"
